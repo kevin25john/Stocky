@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FB4311FF4D744CA02123811 /* Pods_Stocky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC71B24907334B7DA562CFE0 /* Pods_Stocky.framework */; };
 		AE51E2622243A90A00320FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51E2612243A90A00320FB9 /* AppDelegate.swift */; };
-		AE51E2642243A90A00320FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51E2632243A90A00320FB9 /* ViewController.swift */; };
+		AE51E2642243A90A00320FB9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51E2632243A90A00320FB9 /* TableViewController.swift */; };
 		AE51E2672243A90A00320FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE51E2652243A90A00320FB9 /* Main.storyboard */; };
 		AE51E26A2243A90A00320FB9 /* Stocky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE51E2682243A90A00320FB9 /* Stocky.xcdatamodeld */; };
 		AE51E26C2243A90C00320FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE51E26B2243A90C00320FB9 /* Assets.xcassets */; };
 		AE51E26F2243A90C00320FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE51E26D2243A90C00320FB9 /* LaunchScreen.storyboard */; };
+		AE69611B2243AB740055666C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE69611A2243AB740055666C /* Default-568h@2x.png */; };
+		AE69611D2243B31F0055666C /* plus icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE69611C2243B31F0055666C /* plus icon.png */; };
+		AE73C5F0225FFB4A0059F982 /* CustomStockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73C5EE225FFB4A0059F982 /* CustomStockCell.swift */; };
+		AE73C5F1225FFB4A0059F982 /* CustomStockCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE73C5EF225FFB4A0059F982 /* CustomStockCell.xib */; };
+		AE73C5F322600AA90059F982 /* StockCellContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73C5F222600AA90059F982 /* StockCellContent.swift */; };
+		AE73C5F522600C890059F982 /* StockSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73C5F422600C890059F982 /* StockSearchViewController.swift */; };
+		AE73C5F822600E230059F982 /* CustomStockSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE73C5F622600E230059F982 /* CustomStockSearchCell.swift */; };
+		AE73C5F922600E230059F982 /* CustomStockSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE73C5F722600E230059F982 /* CustomStockSearchCell.xib */; };
+		AEC0F1FB2261F84E00C2ECB2 /* StockSearchNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC0F1FA2261F84E00C2ECB2 /* StockSearchNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE51E25E2243A90A00320FB9 /* Stocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE51E2612243A90A00320FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE51E2632243A90A00320FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE51E2632243A90A00320FB9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AE51E2662243A90A00320FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE51E2692243A90A00320FB9 /* Stocky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stocky.xcdatamodel; sourceTree = "<group>"; };
 		AE51E26B2243A90C00320FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE51E26E2243A90C00320FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE51E2702243A90C00320FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE69611A2243AB740055666C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AE69611C2243B31F0055666C /* plus icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus icon.png"; sourceTree = SOURCE_ROOT; };
+		AE73C5EE225FFB4A0059F982 /* CustomStockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStockCell.swift; sourceTree = "<group>"; };
+		AE73C5EF225FFB4A0059F982 /* CustomStockCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomStockCell.xib; sourceTree = "<group>"; };
+		AE73C5F222600AA90059F982 /* StockCellContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCellContent.swift; sourceTree = "<group>"; };
+		AE73C5F422600C890059F982 /* StockSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSearchViewController.swift; sourceTree = "<group>"; };
+		AE73C5F622600E230059F982 /* CustomStockSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStockSearchCell.swift; sourceTree = "<group>"; };
+		AE73C5F722600E230059F982 /* CustomStockSearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomStockSearchCell.xib; sourceTree = "<group>"; };
+		AEC0F1FA2261F84E00C2ECB2 /* StockSearchNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockSearchNames.swift; sourceTree = "<group>"; };
+		B3C3F5EB767AEA1AEFAFA7BB /* Pods-Stocky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stocky.release.xcconfig"; path = "Target Support Files/Pods-Stocky/Pods-Stocky.release.xcconfig"; sourceTree = "<group>"; };
+		CC71B24907334B7DA562CFE0 /* Pods_Stocky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stocky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F7BB89BC62154906229A68 /* Pods-Stocky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stocky.debug.xcconfig"; path = "Target Support Files/Pods-Stocky/Pods-Stocky.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB4311FF4D744CA02123811 /* Pods_Stocky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5122A12A354E2166CB06640E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC71B24907334B7DA562CFE0 /* Pods_Stocky.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE51E2552243A90A00320FB9 = {
 			isa = PBXGroup;
 			children = (
+				AE69611A2243AB740055666C /* Default-568h@2x.png */,
 				AE51E2602243A90A00320FB9 /* Stocky */,
 				AE51E25F2243A90A00320FB9 /* Products */,
+				B132712B1B1802BA17E9E19B /* Pods */,
+				5122A12A354E2166CB06640E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,72 @@
 		AE51E2602243A90A00320FB9 /* Stocky */ = {
 			isa = PBXGroup;
 			children = (
-				AE51E2612243A90A00320FB9 /* AppDelegate.swift */,
-				AE51E2632243A90A00320FB9 /* ViewController.swift */,
+				AE51E27A2243A98D00320FB9 /* Supporting Files */,
+				AE51E2792243A98200320FB9 /* Model */,
+				AE51E2772243A95B00320FB9 /* Controller */,
+				AE51E2762243A93600320FB9 /* View */,
+			);
+			path = Stocky;
+			sourceTree = "<group>";
+		};
+		AE51E2762243A93600320FB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE73C5ED225FFAC90059F982 /* Custon Cell */,
+				AE69611C2243B31F0055666C /* plus icon.png */,
+				AE51E26D2243A90C00320FB9 /* LaunchScreen.storyboard */,
 				AE51E2652243A90A00320FB9 /* Main.storyboard */,
 				AE51E26B2243A90C00320FB9 /* Assets.xcassets */,
-				AE51E26D2243A90C00320FB9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE51E2772243A95B00320FB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE51E2612243A90A00320FB9 /* AppDelegate.swift */,
+				AE51E2632243A90A00320FB9 /* TableViewController.swift */,
+				AE73C5F422600C890059F982 /* StockSearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE51E2792243A98200320FB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE73C5F222600AA90059F982 /* StockCellContent.swift */,
+				AEC0F1FA2261F84E00C2ECB2 /* StockSearchNames.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE51E27A2243A98D00320FB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				AE51E2702243A90C00320FB9 /* Info.plist */,
 				AE51E2682243A90A00320FB9 /* Stocky.xcdatamodeld */,
 			);
-			path = Stocky;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE73C5ED225FFAC90059F982 /* Custon Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AE73C5EE225FFB4A0059F982 /* CustomStockCell.swift */,
+				AE73C5EF225FFB4A0059F982 /* CustomStockCell.xib */,
+				AE73C5F622600E230059F982 /* CustomStockSearchCell.swift */,
+				AE73C5F722600E230059F982 /* CustomStockSearchCell.xib */,
+			);
+			path = "Custon Cell";
+			sourceTree = "<group>";
+		};
+		B132712B1B1802BA17E9E19B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2F7BB89BC62154906229A68 /* Pods-Stocky.debug.xcconfig */,
+				B3C3F5EB767AEA1AEFAFA7BB /* Pods-Stocky.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE51E2732243A90C00320FB9 /* Build configuration list for PBXNativeTarget "Stocky" */;
 			buildPhases = (
+				B244AE91F03D3CB81307D6BE /* [CP] Check Pods Manifest.lock */,
 				AE51E25A2243A90A00320FB9 /* Sources */,
 				AE51E25B2243A90A00320FB9 /* Frameworks */,
 				AE51E25C2243A90A00320FB9 /* Resources */,
+				EA7DF14B61E6E229AB5AE6AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +219,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE51E26F2243A90C00320FB9 /* LaunchScreen.storyboard in Resources */,
+				AE73C5F922600E230059F982 /* CustomStockSearchCell.xib in Resources */,
+				AE69611B2243AB740055666C /* Default-568h@2x.png in Resources */,
 				AE51E26C2243A90C00320FB9 /* Assets.xcassets in Resources */,
+				AE73C5F1225FFB4A0059F982 /* CustomStockCell.xib in Resources */,
 				AE51E2672243A90A00320FB9 /* Main.storyboard in Resources */,
+				AE69611D2243B31F0055666C /* plus icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B244AE91F03D3CB81307D6BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stocky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7DF14B61E6E229AB5AE6AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stocky/Pods-Stocky-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stocky/Pods-Stocky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE51E25A2243A90A00320FB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE73C5F322600AA90059F982 /* StockCellContent.swift in Sources */,
+				AE73C5F522600C890059F982 /* StockSearchViewController.swift in Sources */,
+				AE73C5F822600E230059F982 /* CustomStockSearchCell.swift in Sources */,
 				AE51E26A2243A90A00320FB9 /* Stocky.xcdatamodeld in Sources */,
-				AE51E2642243A90A00320FB9 /* ViewController.swift in Sources */,
+				AE51E2642243A90A00320FB9 /* TableViewController.swift in Sources */,
 				AE51E2622243A90A00320FB9 /* AppDelegate.swift in Sources */,
+				AE73C5F0225FFB4A0059F982 /* CustomStockCell.swift in Sources */,
+				AEC0F1FB2261F84E00C2ECB2 /* StockSearchNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,17 +435,20 @@
 		};
 		AE51E2742243A90C00320FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F7BB89BC62154906229A68 /* Pods-Stocky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RS7A36RNVJ;
-				INFOPLIST_FILE = Stocky/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Stocky/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JohnDev.Stocky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,17 +456,20 @@
 		};
 		AE51E2752243A90C00320FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C3F5EB767AEA1AEFAFA7BB /* Pods-Stocky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RS7A36RNVJ;
-				INFOPLIST_FILE = Stocky/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Stocky/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.JohnDev.Stocky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
