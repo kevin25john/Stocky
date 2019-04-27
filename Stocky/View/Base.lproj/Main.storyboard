@@ -75,6 +75,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4nS-lp-QTh" kind="unwind" trigger="accessoryAction" unwindAction="unwindFromStockSearchViewController:" id="04R-Mv-l9J"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -97,6 +100,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yxq-O3-3Rs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="4nS-lp-QTh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3512.8000000000002" y="133.5832083958021"/>
         </scene>

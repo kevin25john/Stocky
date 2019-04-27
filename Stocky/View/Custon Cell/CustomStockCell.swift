@@ -16,7 +16,6 @@ class CustomStockCell: UITableViewCell {
     @IBOutlet weak var StockPrice: UILabel!
     
     
-    
 
     override func awakeFromNib() {
         super.awakeFromNib()
